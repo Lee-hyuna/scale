@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script type="text/javascript" src="./js/eds.js"></script>
+  
+  <style>
+    .btn {
+      width: 100px;
+      height: 50px;
+      font-size: 20px;
+    }
+
+    .undo, .redo {
+      width: 100px;
+      height: 50px;
+      font-size: 20px;
+      font-weight: bold;
+      background-color: orange;
+      border: 0 none;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <button type="button" class="btn" data-resize="320">320</button>
+    <button type="button" class="btn" data-resize="400">400</button>
+    <button type="button" class="btn" data-resize="480">480</button>
+    <button type="button" class="btn" data-resize="550">550</button>
+    <button type="button" class="btn btn_origin">원본</button>
+  </div>
+  <canvas width="1000" height="700" id="canvas">
+    sorry, no canvas available
+  </canvas>
+  <div>
+    <button type="button" class="undo">undo</button>
+    <button type="button" class="redo">redo</button>
+  </div>
+  <script type="text/javascript" src="./js/photoUpload.js"></script>
+</body>
+
+</html>
